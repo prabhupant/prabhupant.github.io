@@ -18,4 +18,4 @@ Apple has been stagnant in innovation. They haven’t launched any completely ne
 
 And then there is this Super Bowl 2019 Commercial. Enough said.
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/_YISTzpLXCY" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/_YISTzpLXCY" frameborder="0"></iframe>
