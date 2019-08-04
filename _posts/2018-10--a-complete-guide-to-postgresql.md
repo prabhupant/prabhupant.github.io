@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "A complete guide to PostgreSQL"
 ---
 PostgreSQL is nowadays all over the place — major open-source projects use PostgreSQL. So what is PostgreSQL?
 
@@ -197,3 +198,4 @@ Again, pgAdmin to our help.
 Run pgAdmin, start your database server in the background, run the application, and do database queries to alter the tables and view changes.
 
 Now in pgAdmin, expand your database tab and look under ‘Schemas’ for your tables. Select the table you want to view, and then right click, then view data. That’s it!
+
