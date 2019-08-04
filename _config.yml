@@ -1,9 +1,10 @@
 title: Kernel Space
 author: Prabhu Pant
 email: prabhupant09@gmail.com
-description: > My personal blog, focussed on hacking.
-    
-    show_excerpts: false # set to true to show excerpts on the homepage
+description: >
+    My personal blog, focussed on hacking.
+
+show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
