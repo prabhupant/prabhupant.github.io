@@ -23,6 +23,3 @@ Despite the fact that tuples are comparatively less popular than lists, they fin
 
 A normal Python program has thousands of tuples and lists
 
-{% highlightt python %}
-
-
