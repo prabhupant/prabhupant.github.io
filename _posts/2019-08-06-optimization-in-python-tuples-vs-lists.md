@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Optmization in Python - tuples vs lists"
+title: "Optimization in Python - tuples vs lists"
 ---
 
 In Python, tuples and lists are two similar data structures used to store sequential data. The well known difference between the two is that tuples are immutable whereas lists are not.
