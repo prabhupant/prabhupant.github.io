@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Processes and threads"
+title: "Processes and Threads"
 ---
 
 Threads and processes can seem to be the same thing with almost zero or no differences. But there is a lot that separates them.
