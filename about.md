@@ -14,5 +14,6 @@ Find me here:
 
 [GitHub](https://github.com/prabhupant)
 
-[Instagram] (https://www.instagram.com/prabhupant/)
+[Instagram](https://www.instagram.com/prabhupant/)
 
+[Twitter](https://twitter.com/iPrabhuPant)
