@@ -81,7 +81,7 @@ $ tree -L 3
 8 directories, 11 files
 $
 
-{% enghighlight %}
+{% endhighlight %}
 
 From above, we can conclude that the environmet was created by copying the Python binary to the local directory (/venv/bin/python).
 
