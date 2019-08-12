@@ -13,3 +13,6 @@ Find me here:
 [LinkedIn](https://www.linkedin.com/in/prabhupant/)
 
 [GitHub](https://github.com/prabhupant)
+
+[Instagram] (https://www.instagram.com/prabhupant/)
+
