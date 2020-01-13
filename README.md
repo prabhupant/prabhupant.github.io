@@ -1,1 +1,1 @@
-My blog. I post about coding and technology.
+My personal blog. Built using Jekyll and GitHub pages.
