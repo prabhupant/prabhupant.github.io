@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to read source code"
+title: "Applying Software Engineering Principles on Life"
 ---
 
 ```
