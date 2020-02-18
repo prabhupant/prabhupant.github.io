@@ -1,1 +1,1 @@
-My personal blog. Built using Jekyll and GitHub pages.
+Personal website. Hosted at prabhupant.com
