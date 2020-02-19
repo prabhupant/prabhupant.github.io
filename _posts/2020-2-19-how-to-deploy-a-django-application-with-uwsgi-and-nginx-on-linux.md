@@ -172,7 +172,7 @@ sudo service nginx restart
 
 ## FAQs
 
-Q1. What is the difference between WSGI, uWSGI and uwsgi?
+**Q1. What is the difference between WSGI, uWSGI and uwsgi?**
 
 Ans. These three names are confusing, no doubt about that. This is one of the place where Python naming conventions got bad. To differentiate between them, remember -
 
@@ -180,11 +180,11 @@ Ans. These three names are confusing, no doubt about that. This is one of the pl
 * uWSGI - a Python WSGI server implementation used for running Python web applications. Django, Flask, etc all use uWSGI.
 * uwsgi - a low level protocol that is used by uWSGI servers to communicate with other uWSGI servers or upstream servers. Using this protocol, our uWSGI server communicates with Nginx
 
-Q2. Why are we using Emperor mode?
+**Q2. Why are we using Emperor mode?**
 
 Ans. There are different modes for serving our web application on uWSGI. But when we want to deploy a big number of apps on a single server, or a group of servers, Emperor mode makes our life easier.
 
-Q3. What if I want to deploy multiple projects on the same server?
+**Q3. What if I want to deploy multiple projects on the same server?**
 
 Ans. Pretty simple. Like in our case we have `project1` and `project2`, follow the same steps for `project2`, make sure you change the project name in all the files like `project2_uwsgi.ini`. Now, same as you did for `project1`, create a nginx conf file for `project2` making sure that you use a different port number and `upstream` name in this new file is different. Refer to the Nginx section above.
 
