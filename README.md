@@ -1,1 +1,1 @@
-Personal website. Visitt [prabhupant.com](http://prabhupant.com/)
+Personal website. Visit [prabhupant.com](http://prabhupant.com/)
