@@ -10,7 +10,7 @@ For the last two years I have been writing code in Python and have been working 
 
 I write on many things - technologies, psychology, philosphy, movies, photography, and football. Find my fiction writings [here on Medium](https://medium.com/@heyPrabhu)
 
-Other that exploring and working in computer technologies, I love playing guitar, photography, football, reading, learning new things, and running long distances
+Other that exploring and working in computer technologies, I love playing guitar, photography, football, reading, learning new things, chess and running long distances.
 
 Find me here:
 
