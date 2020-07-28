@@ -20,4 +20,4 @@ Find me here:
 
 [Instagram](https://www.instagram.com/prabhupant/)
 
-[Twitter](https://twitter.com/iPrabhuPant)
+[Twitter](https://twitter.com/prabhupant09)
