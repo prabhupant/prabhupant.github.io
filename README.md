@@ -1,1 +1,1 @@
-Personal website. Visit [prabhupant.com](http://prabhupant.com/)
+Personal website and blog.
