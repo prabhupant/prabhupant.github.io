@@ -19,10 +19,6 @@ After that use the code below to read the excel sheet.
 
 
 {% highlight python %}
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from datetime import datetime, timedelta
 import base64
 import os
 import pandas as pd
@@ -31,6 +27,10 @@ import pickle
 import io
 import pymysql
 import logging
+from googleapiclient.discovery import build
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
+from datetime import datetime, timedelta
 
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
