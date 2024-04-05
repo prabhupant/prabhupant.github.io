@@ -133,7 +133,7 @@ Unfortunately Poetry `cache clear` does not work in an intuitive way but you can
 6. Now copy all the contents. In the command below, we are inside the `cool-py-lib` directory where we untarred the files. We are copying all of the unpacked files to the `site-packages` of the `importing-py-project` (Python project where `cool-py-lib` is being used)
 
 ```bash
-cp -r * $HOME/Library/Caches/pypoetry/virtualenvs/importing-py-project-k6HKJt70-py3.10/lib/python3.10/site-packages/axm_py_libs/.
+cp -r * $HOME/Library/Caches/pypoetry/virtualenvs/importing-py-project-k6HKJt70-py3.10/lib/python3.10/site-packages/cool_py_libs/.
 ```
 
 #### The easy but ugly way
