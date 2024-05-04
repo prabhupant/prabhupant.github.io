@@ -3,7 +3,7 @@ layout: post
 title: "How to run Jupyter Notebook inside Python virtualenv"
 ---
 
-Yesterday I came across a problem where Langchain ran into some issues with my globally installed Pydantic and hence, I wasn't able to run the code I had written to leverage LLM. So this is an article detailing how you can run Jupyter Notebook inside a Python virtualenv
+Yesterday I came across a problem where Langchain ran into some issues with my globally installed Pydantic and hence, I wasn't able to run the code I had written to leverage LLM. So this is an article detailing how you can run Jupyter Notebook inside a Python virtualenv. I am assuming you already have Jupyter Notebook installed.
 
 ### Step 1 - Initialize virtualenv
 
@@ -19,29 +19,39 @@ Activate the environment
 source .venv/bin/activate
 ```
 
-### Step 2 - Install Jupyter Notebook
+### Step 2 - Install ipykernel
 
-Using pip, install Jupyter Notebook
+To manage the kernel, you will need to install `ipykernel`. 
 
 ```bash
-pip install notebook
+pip install ipykernel
 ```
 
-Then install all the dependencies you want.
+Now to check which kernels you have, you can run `jupyter kernelspec list`
+
+![Jupyter config list](/assets/jupyter_config.png)
+
+As you can see there is only one kernel currently configured.
+
 
 ### Step 3 - Setup iPython kernel
 
-Your virtualenv name is usually the directory name. As you can see from the image, on the right hand side, the venv name comes as `personal` which is same as my current working directory name.
-
-![Venv name](/assets/venv_name.png)
-
-Now, run this command
+Now, to install a new kernel, use this command
 
 ```bash
-ipython kernel install --user --name=personal
+python -m ipykernel install --user --name notebooks --display-name "Notebooks"
 ```
 
-This will configure a new kernel in your Jupyter Notebook
+This will configure a new kernel in your Jupyter Notebook. The list will now look like 
+
+
+![Kernel installed list](/assets/install_kernel.png)
+
+If you go to the path mentioned here, you will find a `kernel.json` file which will contain the path to the venv file.
+
+
+![Kernel path](/assets/kernel_installed.png)
+
 
 ### Step 4 - Switch to this kernel in Jupyter Notebook
 
@@ -53,4 +63,4 @@ jupyter notebook
 
 Now, open a Notebook and you can find the new kernel and switch to it.
 
-![Kernel switch](/assets/kernel.png)
+![Kernel path](/assets/kernel_final.png)
